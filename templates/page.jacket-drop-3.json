@@ -1,0 +1,84 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "e399af7f-1578-4f68-afaf-40e901fc8834": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19550634115420__e399af7f-1578-4f68-afaf-40e901fc8834-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Timeless French Work Jackets – For Men & Women</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "template--19550634115420__e399af7f-1578-4f68-afaf-40e901fc8834-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover our curated collection of authentic <strong>French work jackets</strong>, also known as <em>chore jackets</em>. Inspired by traditional <em><strong>bleu de travail</strong></em> worn by artisans and craftsmen, these utility jackets combine heritage design with modern cuts. Each piece is crafted in durable cotton, offering a perfect balance of style, functionality, and comfort. Whether styled with jeans, dresses, or layered over knits, the <em>French worker jacket</em> remains a versatile staple—ideal for daily wear or adding a touch of Parisian charm to your wardrobe.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19550634115420__e399af7f-1578-4f68-afaf-40e901fc8834-heading-1",
+        "template--19550634115420__e399af7f-1578-4f68-afaf-40e901fc8834-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 20
+      }
+    },
+    "featured_collection_iNbVC6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "french-work-jackets",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e399af7f-1578-4f68-afaf-40e901fc8834",
+    "featured_collection_iNbVC6"
+  ]
+}

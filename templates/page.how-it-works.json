@@ -1,0 +1,251 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "714b8c73-366f-4685-a235-7f48789adc77": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19540566638940__714b8c73-366f-4685-a235-7f48789adc77-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/DSCF8601_2_d44f9105-9219-478a-946b-51bae332e133.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19540566638940__714b8c73-366f-4685-a235-7f48789adc77-column-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_AndATy": {
+      "type": "rich-text",
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_4UVyCn": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .menu-link {\n    color: #000000; /* nero */\n    text-decoration: none;\n    transition: color 0.2s ease;\n  }\n\n  .menu-link:hover {\n    color: #777777; /* grigio medio */\n    text-decoration: none;\n  }\n</style>\n\n<div class=\"page-width\" style=\"text-align: center;\">\n  <p class=\"h2\">\n    <a href=\"/pages/how-it-works\" class=\"menu-link\">How It Works</a> /\n    <a href=\"/pages/materials\" class=\"menu-link\">Materials</a> /\n    <a href=\"/pages/try-it-at-home\" class=\"menu-link\">Try it at Home</a>\n  </p>\n</div>",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 20
+      }
+    },
+    "custom_liquid_EVxKFF": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h1\">Every piece we make follows a few simple rules,<br>and we don’t break them.<br>\nWe produce 99 pieces every three months.<br>\nNo more.<br>\nNot because we want to be rare,\nbut because that’s how we can make things well.<br>\nWe don’t build stock.<br>\nWe don’t rush seasons.<br>\nWe don’t design for trends.<br>\nOur rhythm is slower:</p>\n<p class=\"h1\">\n• Choosing the yarn<br>\nWe start from the fibre. Merino extrafine, long-staple cotton, Italian linen.\nMaterials that feel right from the first touch — honest, breathable, built to last.</p>\n<p class=\"h1\">\n• Knitting and construction<br>\nOur pieces are made in small Italian workshops where time still matters.\nNothing is rushed. The hands at the machines work with the calm of people who know their craft.\nOne tension, one stitch, one pass at a time.</p>\n<p class=\"h1\">\n• Assembly and finishing<br>\nWhen everything is knitted, the pieces are linked, shaped, cleaned, checked.\nEdges, hems, collars — all done slowly, one by one.</p>\n<p class=\"h1\">\n• Always 99<br>\nWhen the 99 pieces are ready, we inspect them individually.\nIf something isn’t right, it doesn’t leave the atelier.</p>\n<p class=\"h1\">\nNo shortcuts.<br>\nJust care.\n</p>\n</a>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
+    "image_with_text_mKtHrw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_TGTBN9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Why we knit our Marinières</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_Ji46Vm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our marinières are knitted one by one, not mass-produced. This way of working allows us to stay close to the process and to oversee every step, from the yarn to the finished piece. Working this way means each marinière can be individually checked and refined, so every garment meets the same standard of quality and finish. It’s a slower approach, but one that gives us full control over how each piece comes to life.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TGTBN9",
+        "text_Ji46Vm"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/knitten_desk.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "right",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_i66HED": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .menu-link {\n    color: #000000; /* nero */\n    text-decoration: none;\n    transition: color 0.2s ease;\n  }\n\n  .menu-link:hover {\n    color: #777777; /* grigio medio */\n    text-decoration: none;\n  }\n</style>\n\n<div class=\"page-width\" style=\"text-align: center;\">\n  <p class=\"h2\">\n    <a href=\"/pages/how-it-works\" class=\"menu-link\">How It Works</a> /\n    <a href=\"/pages/materials\" class=\"menu-link\">Materials</a> /\n    <a href=\"/pages/try-it-at-home\" class=\"menu-link\">Try it at Home</a>\n  </p>\n</div>",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_XUKLjz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_thQMBz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Materials",
+            "heading_size": "h2"
+          }
+        },
+        "text_3RzCQm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Materials are chosen as part of the design, not as a technical requirement. We work with yarns sourced from some of the best suplplier, (<a href=\"https://www.manifatturasesia.it/\" target=\"_blank\" title=\"https://www.manifatturasesia.it/\">Sesia Manifatture</a>,<a href=\"https://lorafesta.com\" target=\"_blank\" title=\"https://lorafesta.com\"> Lora&Festa</a>, <a href=\"https://www.tollegno1900.it/it/\" target=\"_blank\" title=\"https://www.tollegno1900.it/it/\">Tollegno 1900</a>) selected for their quality, feel and consistency. Colours are developed in dialogue with current trends, while volumes are shaped to feel contemporary and forward — fashion-focused, but never forced or exaggerated. Each choice is made in relation to the silhouette and to how the piece is meant to be worn, resulting in garments that feel intentional, current and easy to live with.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_thQMBz",
+        "text_3RzCQm"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/filati_desk.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_fmfzAe": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Jr9cnt": {
+          "type": "heading",
+          "settings": {
+            "heading": "99 pieces",
+            "heading_size": "h2"
+          }
+        },
+        "text_8V9rdm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Atelier Marinière works through a simple rhythm.<br/>A new collection is released every three months, following the natural pace of the seasons.</p><p><br/>Each collection is available only for a limited period of time. When the access window closes, it does not return.</p><p>Every collection is made in 99 pieces and t<strong>here are no restocks.</strong><br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Jr9cnt",
+        "text_8V9rdm"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/et_1f75e606-bcd3-4a6e-a524-def3337e461b.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_NXRFjR": {
+      "type": "image-banner",
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/ateliermariniere_handloom.jpg",
+        "mobile_image": "shopify://shop_images/ateliermariniere_handloom.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "middle-center-m",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "714b8c73-366f-4685-a235-7f48789adc77",
+    "rich_text_AndATy",
+    "custom_liquid_4UVyCn",
+    "custom_liquid_EVxKFF",
+    "image_with_text_mKtHrw",
+    "custom_liquid_i66HED",
+    "image_with_text_XUKLjz",
+    "image_with_text_fmfzAe",
+    "image_banner_NXRFjR"
+  ]
+}

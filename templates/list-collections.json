@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "title": "Collections",
+        "sort": "alphabetical",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "columns_mobile": "2"
+      }
+    },
+    "multicolumn_9cGrBU": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_a3eGmW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/donna_08520fe8-83d3-4cb4-b31f-f3cb6bcfc2a1.jpg",
+            "title": "<a href=\"/pages/mariniere-drop-4\" title=\"Marinière Drop 4\">Drop 4 - The Merinos</a>",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/edition-4-merinos"
+          }
+        },
+        "column_BhW7dY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/metal-buttons-french-work-jacket-blue-de-travail.jpg",
+            "title": "<a href=\"/collections/jacket-men-women\" title=\"Jacket Men+Women\">Drop 3 - The French Work Jacket</a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kwj8Qf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_banner_V2-min-compress_034cd1bc-009e-4d72-a3a9-41578d49a443.jpg",
+            "title": "Edition 0<a href=\"/pages/mariniere-vol-2\" title=\"Marinière Drop 2\">2 - The V-Neck</a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cNfqcx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/blu_uomo_5.jpg",
+            "title": "<a href=\"/pages/mariniere-vol-1\" title=\"Marinière Drop 1\">Drop 1 - The Boat Neck</a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_a3eGmW",
+        "column_BhW7dY",
+        "column_kwj8Qf",
+        "column_cNfqcx"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_9cGrBU"
+  ]
+}

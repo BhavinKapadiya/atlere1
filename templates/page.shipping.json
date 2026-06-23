@@ -1,0 +1,82 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "d330f3f6-94bc-402c-b351-22af77a62c6d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19520181174620__d330f3f6-94bc-402c-b351-22af77a62c6d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>SHIPPING</h1><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19520181174620__d330f3f6-94bc-402c-b351-22af77a62c6d-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_6yRJCJ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mm7xQK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Senza_titolo-1.png",
+            "title": "",
+            "text": "<p>We use UPS for all deliveries. </p><p>When your marinière is ready to be dispatched, we'll send you an email with your tracking details so you can follow your marinière's journey to you. </p><h2>Shipping times:</h2><p><strong>EU customers</strong> - 2 – 5 working days after dispatch.</p><p><strong>Rest of World customers</strong> - 3 - 7 working days after dispatch.</p><p>You'll get an email and/or text message from UPS with your tracking details. They will give an expected day of delivery and will attempt delivery up to 3 times. If your delivery failed and your marinière was returned to us, we would need to re-charge you for shipping a second attempt. </p><p></p><h2>Customs, Clearance & Duties Fees:</h2><p>We are unable to cover the cost of any customs, clearance or duties fees and so must be paid for by the customer.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_mm7xQK"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d330f3f6-94bc-402c-b351-22af77a62c6d",
+    "multicolumn_6yRJCJ"
+  ]
+}

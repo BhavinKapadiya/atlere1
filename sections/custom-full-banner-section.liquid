@@ -1,0 +1,164 @@
+<style>
+.full-banner_box {
+  display: flex;
+  line-height: 0;
+}
+
+.full-banner_box .content-box-full {
+  width: 100%;
+}
+
+.full-banner_box .col-link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.full-banner_box .col-link:hover .overlay {
+  opacity: 1;
+}
+
+.full-banner_box .overlay {
+  position: absolute;
+  background: #00000026;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+  opacity: 0;
+}
+
+.full-banner_box img.desktop-img {
+  display: none;
+}
+
+.full-banner_box img.mobile-img {
+  display: block;
+  width: 200%;
+  transform: translateX(-50%);
+}
+
+@media screen and (min-width: 768px) {
+  .full-banner_box img.desktop-img {
+    display: block;
+    width: 100%;
+    transform: none;
+  }
+  .full-banner_box img.mobile-img {
+    display: none;
+  }
+}
+
+.full-banner_box span {
+  z-index: 1;
+  position: absolute;
+  top: var(--top);
+  left: var(--left);
+  transform: translate(calc(-1 * var(--left)), calc(-1 * var(--top)));
+  white-space: nowrap;
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3rem;
+  font-family: var(--font-heading-family);
+  padding: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .full-banner_box span {
+    padding: 32px;
+  }
+}
+</style>
+
+
+<div class="full-banner_box">
+  <div class="content-box-full">
+    <div>
+      <a class="col-link" href="{{ section.settings.first-url }}">
+
+        <!-- MOBILE IMAGE -->
+        <img 
+          class="mobile-img"
+          src="{{ section.settings.first-img-mobile | img_url: 'master' }}"
+          alt=""
+        >
+
+        <!-- DESKTOP IMAGE -->
+        <img 
+          class="desktop-img"
+          src="{{ section.settings.first-img | img_url: 'master' }}"
+          alt=""
+        >
+
+        <div class="overlay"></div>
+
+        <span style="--left: {{ section.settings.horizontal }}%; --top: {{ section.settings.vertical }}%;">
+          {{- section.settings['first-text'] -}}
+        </span>
+
+      </a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Full Banner",
+  "settings": [
+    {
+      "type": "header",
+      "content": "First Full Banner Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "first-img",
+      "label": "Choose Desktop Banner Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "first-img-mobile",
+      "label": "Choose Mobile Banner Image"
+    },
+    {
+      "type": "text",
+      "id": "first-text",
+      "label": "Enter First Banner Text"
+    },
+    {
+      "type": "select",
+      "id": "horizontal",
+      "label": "Allineamento Orizzontale",
+      "options": [
+        { "value": "0", "label": "Sinistra" },
+        { "value": "50", "label": "Centro" },
+        { "value": "100", "label": "Destra" }
+      ],
+      "default": "50"
+    },
+    {
+      "type": "select",
+      "id": "vertical",
+      "label": "Allineamento Verticale",
+      "options": [
+        { "value": "0", "label": "Top" },
+        { "value": "50", "label": "Centro" },
+        { "value": "100", "label": "Bottom" }
+      ],
+      "default": "50"
+    },
+    {
+      "type": "url",
+      "id": "first-url",
+      "label": "Choose/Enter Collection Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Full Banner Section"
+    }
+  ]
+}
+{% endschema %}

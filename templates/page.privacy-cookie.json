@@ -1,0 +1,67 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_YwwLqh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_grmLBf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Privacy and Cookie Policy",
+            "heading_size": "h1"
+          }
+        },
+        "text_pwGtUV": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Introduction</h2><p>Welcome to <a href=\"https://ateliermariniere.com/\">Atelier Marinière</a>. This Privacy and Cookie Policy describes how we collect, use, and protect your personal data when you use our website, purchase products, or otherwise interact with us. By using our services, you agree to the terms of this policy.</p><p><strong>Data Controller:</strong><br/>Atelier Marinière<br/>Website: <a href=\"https://ateliermariniere.com/\">ateliermariniere.com</a><br/>Location: Italy (or other applicable country)</p><h2>1. Data Collection</h2><p>We collect the following types of personal data:</p><ol><li><strong>Information You Provide Directly:</strong></li><li><strong>Automatically Collected Information:</strong></li><li><strong>Data from Third Parties:</strong></li></ol><h2>2. How We Use Your Data</h2><p>We use your personal data for the following purposes:</p><ul><li><strong>Processing Orders and Transactions:</strong> To manage and fulfill orders, process payments, and deliver products.</li><li><strong>Customer Support:</strong> To respond to inquiries, provide customer support, and manage returns and refunds.</li><li><strong>Marketing and Communication:</strong> To send you promotional offers, newsletters, and information about products that might interest you. You may opt out of marketing communications at any time.</li><li><strong>Improving Our Services:</strong> To analyze and improve our website, personalize your experience, and monitor usage patterns.</li><li><strong>Legal Compliance:</strong> To comply with applicable laws and protect the rights, property, or safety of our business and users.</li></ul><h2>3. Legal Bases for Processing</h2><p>We process your data based on the following legal grounds:</p><ul><li><strong>Contractual Necessity:</strong> To fulfill our obligations related to order processing and delivery.</li><li><strong>Consent:</strong> For direct marketing activities and use of cookies, where applicable.</li><li><strong>Legal Obligation:</strong> Compliance with legal requirements (e.g., tax laws).</li><li><strong>Legitimate Interests:</strong> To improve our site, provide customer service, and ensure the security of our website.</li></ul><h2>4. Data Sharing and Disclosure</h2><p>We do not sell or rent your personal data. However, we may share your data with trusted third parties, including:</p><ul><li><strong>Service Providers:</strong> Companies that assist us in delivering our services, such as payment processors, shipping providers, and customer support platforms.</li><li><strong>Legal Authorities:</strong> In compliance with legal obligations or in response to valid legal processes.</li></ul><h2>5. International Data Transfers</h2><p>Since we operate across the EU, your data may be processed in countries within the European Economic Area (EEA). If we transfer data outside the EEA, we ensure appropriate safeguards in compliance with GDPR regulations.</p><h2>6. Data Retention</h2><p>We retain your personal data only as long as necessary for the purposes stated in this policy or as required by law.</p><h2>7. Your Rights</h2><p>You have the following rights regarding your personal data:</p><ul><li><strong>Access:</strong> Request access to your data and obtain a copy.</li><li><strong>Correction:</strong> Request corrections to inaccurate data.</li><li><strong>Deletion:</strong> Request deletion of your data, subject to certain conditions.</li><li><strong>Objection:</strong> Object to data processing based on legitimate interests or for direct marketing.</li><li><strong>Data Portability:</strong> Receive a copy of your data in a structured format.</li><li><strong>Withdraw Consent:</strong> Withdraw consent for processing (e.g., marketing).</li></ul><p>To exercise these rights, please contact us at [your email address].</p><h2>8. Cookie Policy</h2><p>We use cookies and similar technologies to enhance your experience and gather analytics. Cookies are small text files placed on your device when you visit our site. We use the following types of cookies:</p><ol><li><strong>Essential Cookies:</strong> Required for website functionality and security.</li><li><strong>Analytics Cookies:</strong> Help us understand website usage and improve user experience.</li><li><strong>Marketing Cookies:</strong> Used for personalized advertising and tracking the effectiveness of campaigns.</li></ol><p>By using our website, you consent to the use of cookies as described in this policy. You can manage your cookie preferences through your browser settings or by using the cookie banner provided on our website.</p><h3>Managing Cookies</h3><p>Most browsers allow you to control cookie settings. You can delete cookies or set your browser to refuse cookies, although this may impact your experience on our site.</p><h2>9. Data Security</h2><p>We implement appropriate technical and organizational measures to protect your data from unauthorized access, alteration, disclosure, or destruction.</p><h2>10. Changes to This Policy</h2><p>We may update this Privacy and Cookie Policy from time to time. We encourage you to review this page periodically. The effective date will be noted at the top of the policy.</p><h2>11. Contact Us</h2><p>If you have any questions about this Privacy and Cookie Policy or wish to exercise any of your rights, please contact us at:</p><p><strong>Atelier Marinière</strong><br/>Email: <strong>ateliermariniere@gmail.com</strong><br/>Website: <a href=\"https://ateliermariniere.com/\">ateliermariniere.com</a></p>"
+          }
+        },
+        "button_hWTCqN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_grmLBf",
+        "text_pwGtUV",
+        "button_hWTCqN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_YwwLqh"
+  ]
+}

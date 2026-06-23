@@ -1,0 +1,73 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "e399af7f-1578-4f68-afaf-40e901fc8834": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19550634115420__e399af7f-1578-4f68-afaf-40e901fc8834-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>The V-neck Marinière</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "template--19550634115420__e399af7f-1578-4f68-afaf-40e901fc8834-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For <strong>the second release</strong>, Atelier Marinière introduces the <strong>V-neck Breton Shirt</strong>, available in <strong>four vibrant color combinations</strong>—a must-have for those who embrace the <strong>art de vivre</strong>.</p><p>Designed for <strong>effortless versatility</strong>, it’s perfect for any occasion: a <strong>beachside lunch, a stroll through summer markets, cruising in your convertible</strong>, or <strong>a day out on the boat with friends</strong>. Whether in the city or by the sea, this timeless piece elevates any look.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19550634115420__e399af7f-1578-4f68-afaf-40e901fc8834-heading-1",
+        "template--19550634115420__e399af7f-1578-4f68-afaf-40e901fc8834-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 20
+      }
+    },
+    "custom_banner_section_PVV4NM": {
+      "type": "custom-banner-section",
+      "settings": {
+        "first-img": "shopify://shop_images/men-2.jpg",
+        "first-text": "Shop men's",
+        "sub-text-1": "V-NECK BRETON SHIRT",
+        "horizontal1": "7",
+        "vertical1": "95",
+        "first-url": "shopify://collections/drop-2-mens-v-neck-breton",
+        "second-img": "shopify://shop_images/women-2.jpg",
+        "second-text": "Shop women's",
+        "sub-text-2": "V-NECK BRETON SHIRT",
+        "horizontal2": "7",
+        "vertical2": "95",
+        "second-url": "shopify://collections/drop-2-womens-v-neck-breton"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e399af7f-1578-4f68-afaf-40e901fc8834",
+    "custom_banner_section_PVV4NM"
+  ]
+}

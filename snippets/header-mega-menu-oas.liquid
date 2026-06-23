@@ -1,0 +1,191 @@
+{% comment %}
+  OAS-Style Mega Menu Snippet
+  Renders the left-side menu items with full-width mega menu panels.
+  
+  Expected variables:
+    - links: The menu links (section.settings.menu.links)
+    - split_index: Index of the SPLIT item
+
+  Usage:
+    {% render 'header-mega-menu-oas', links: links, split_index: split_index %}
+{% endcomment %}
+
+{%- assign start = start_index | default: 0 -%}
+{%- assign stop = stop_index | default: 9999 -%}
+
+{%- if is_split != true -%}
+<nav class="header__inline-menu">
+  <ul class="list-menu list-menu--inline" role="list">
+{%- endif -%}
+
+{%- for link in links offset:start -%}
+  {%- assign current_idx = forloop.index0 | plus: start -%}
+  {%- if current_idx == stop -%}
+    {%- break -%}
+  {%- endif -%}
+
+  {%- comment -%} Skip SPLIT, but turn '---' into a spacer at the top level {%- endcomment -%}
+  {%- if link.title == 'SPLIT' -%}
+    {%- continue -%}
+  {%- elsif link.title == '---' -%}
+    <li class="header__spacer" style="width: 2rem;" aria-hidden="true"></li>
+    {%- continue -%}
+  {%- endif -%}
+
+  <li>
+    {%- if link.links != blank -%}
+      {%- comment -%} This menu item has children — render mega menu {%- endcomment -%}
+      <mega-menu-oas class="oas-mega" data-menu-handle="{{ link.handle }}">
+        <a
+          href="{{ link.url }}"
+          class="oas-mega__trigger header__menu-item list-menu__item link link--text focus-inset"
+          aria-expanded="false"
+          {% if link.current %}aria-current="page"{% endif %}
+        >
+          <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>
+            {{- link.title | escape -}}
+          </span>
+        </a>
+
+        <div class="oas-mega__panel" aria-hidden="true">
+          <div class="oas-mega__backdrop"></div>
+          <div class="oas-mega__content">
+            <div class="oas-mega__grid">
+
+              {%- comment -%} ====== LEFT COLUMN: Children of this menu item ====== {%- endcomment -%}
+              <div class="oas-mega__col-left">
+                <ul class="oas-mega__left-list" role="list">
+                  {%- assign first_active_set = false -%}
+                  {%- for childlink in link.links -%}
+                    {%- if childlink.title == '---' -%}
+                      <li class="oas-mega__spacer" aria-hidden="true"></li>
+                    {%- else -%}
+                      <li
+                        class="oas-mega__left-item{% unless first_active_set %} is-active{% endunless %}"
+                        data-target="{{ link.handle }}-{{ childlink.handle }}"
+                      >
+                        <a
+                          href="{{ childlink.url }}"
+                          class="oas-mega__left-link"
+                          {% if childlink.current %}aria-current="page"{% endif %}
+                        >
+                          {{ childlink.title | escape }}
+                        </a>
+                      </li>
+                      {%- assign first_active_set = true -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+                </ul>
+              </div>
+
+              {%- comment -%} ====== MIDDLE COLUMN: Grandchildren (sub-links) ====== {%- endcomment -%}
+              <div class="oas-mega__col-middle">
+                {%- assign first_sub_active_set = false -%}
+                {%- for childlink in link.links -%}
+                  {%- if childlink.title == '---' -%}
+                    {%- continue -%}
+                  {%- endif -%}
+                  <div
+                    class="oas-mega__sub-panel{% unless first_sub_active_set %} is-active{% endunless %}"
+                    data-content="{{ link.handle }}-{{ childlink.handle }}"
+                  >
+                    {%- if childlink.links != blank -%}
+                      <ul class="oas-mega__sub-list" role="list">
+                        {%- for grandchildlink in childlink.links -%}
+                          {%- if grandchildlink.title == '---' -%}
+                            <li class="oas-mega__spacer" aria-hidden="true"></li>
+                          {%- elsif grandchildlink.url == '#' or grandchildlink.url == blank -%}
+                            {%- comment -%} Items with # URL render as category headers {%- endcomment -%}
+                            <li>
+                              <span class="oas-mega__sub-header">
+                                {{ grandchildlink.title | escape }}
+                              </span>
+                            </li>
+                          {%- else -%}
+                            <li>
+                              <a
+                                href="{{ grandchildlink.url }}"
+                                class="oas-mega__sub-link"
+                                {% if grandchildlink.current %}aria-current="page"{% endif %}
+                              >
+                                {{ grandchildlink.title | escape }}
+                              </a>
+                            </li>
+                          {%- endif -%}
+                        {%- endfor -%}
+                      </ul>
+                    {%- endif -%}
+
+                    {%- comment -%} Media Block for this child {%- endcomment -%}
+                    {%- assign child_title_lower = childlink.title | downcase | strip -%}
+                    {%- for block in section.blocks -%}
+                      {%- if block.type == 'mega_menu_image' -%}
+                        {%- assign block_title_lower = block.settings.menu_item_title | downcase | strip -%}
+                        {%- if block_title_lower == child_title_lower -%}
+                          <div class="oas-mega__media-panel is-active" data-media="{{ link.handle }}-{{ childlink.handle }}" style="position: static; opacity: 1; visibility: visible; transform: none; width: 100%; max-width: 450px;">
+                            {%- if block.settings.video_url != blank -%}
+                              <a
+                                href="{{ block.settings.link | default: '#' }}"
+                                class="oas-mega__media-link"
+                                {{ block.shopify_attributes }}
+                              >
+                                <video
+                                  class="oas-mega__video"
+                                  src="{{ block.settings.video_url }}"
+                                  autoplay
+                                  muted
+                                  loop
+                                  playsinline
+                                ></video>
+                              </a>
+                            {%- elsif block.settings.image != blank -%}
+                              <a
+                                href="{{ block.settings.link | default: '#' }}"
+                                class="oas-mega__media-link"
+                                {{ block.shopify_attributes }}
+                              >
+                                {{- block.settings.image | image_url: width: 900 | image_tag:
+                                  class: 'oas-mega__image',
+                                  loading: 'lazy',
+                                  sizes: '(min-width: 990px) 35vw, 0px',
+                                  widths: '400, 600, 800, 900'
+                                -}}
+                              </a>
+                            {%- endif -%}
+                          </div>
+                        {%- endif -%}
+                      {%- endif -%}
+                    {%- endfor -%}
+
+                  </div>
+                  {%- assign first_sub_active_set = true -%}
+                {%- endfor -%}
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+        </mega-menu-oas>
+
+    {%- else -%}
+      {%- comment -%} Simple link without children {%- endcomment -%}
+      <a
+        id="HeaderMenu-{{ link.handle }}"
+        href="{{ link.url }}"
+        class="header__menu-item list-menu__item link link--text focus-inset"
+        {% if link.current %}aria-current="page"{% endif %}
+      >
+        <span {%- if link.current %} class="header__active-menu-item"{% endif %}>
+          {{- link.title | escape -}}
+        </span>
+      </a>
+    {%- endif -%}
+  </li>
+{%- endfor -%}
+
+{%- if is_split != true -%}
+  </ul>
+</nav>
+{%- endif -%}

@@ -1,0 +1,262 @@
+<style>
+.oas-banner-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* Use 100dvh for better mobile behavior if supported */
+  height: 100dvh; 
+  overflow: clip; /* Ensures sticky behavior isn't broken by hidden overflow while clipping image */
+  background: #000;
+  display: block;
+}
+
+.oas-banner-media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.oas-banner-media img,
+.oas-banner-media svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.oas-banner-media img.oas-banner-desktop-img {
+  display: none;
+}
+.oas-banner-media img.oas-banner-mobile-img {
+  display: block;
+}
+
+@media screen and (min-width: 750px) {
+  .oas-banner-media img.oas-banner-desktop-img {
+    display: block;
+  }
+  .oas-banner-media img.oas-banner-mobile-img {
+    display: none;
+  }
+}
+
+.oas-banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15); /* Slight dark overlay for text readability */
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* 
+  STICKY TRACK LOGIC:
+  The track takes up the full height of the section.
+  The text starts at the top, but is forced down to `calc(100vh - X)` by position: sticky.
+  This makes it sit at the bottom of the screen while the image scrolls up,
+  until the bottom of the section pushes it away.
+*/
+.oas-banner-text-track {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  pointer-events: none; /* Let clicks pass through the track... */
+}
+
+.oas-banner-text-sticky {
+  position: sticky;
+  /* Adjust this calculation to determine how far from the top of the screen the text sits */
+  top: calc(100vh - 180px); 
+  left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px; /* Prevents text from touching the bottom of the image */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  pointer-events: auto; /* ...but catch clicks on the text container */
+}
+
+@media screen and (min-width: 750px) {
+  .oas-banner-text-sticky {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px; /* More space on desktop */
+    top: calc(100vh - 220px); 
+  }
+}
+
+.oas-banner-heading {
+  margin: 0 0 12px 0;
+  color: #ffffff;
+  font-family: var(--font-heading-family);
+  font-weight: var(--font-heading-weight);
+  font-size: 3.2rem;
+  line-height: 1.1;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .oas-banner-heading {
+    font-size: 5rem;
+    margin: 0 0 16px 0;
+  }
+}
+
+.oas-banner-link {
+  color: #ffffff;
+  font-family: var(--font-body-family);
+  font-weight: var(--font-body-weight);
+  font-size: 1.4rem;
+  text-decoration: none; /* Removed static underline */
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+/* Animated Underline */
+.oas-banner-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #ffffff;
+  transition: width 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* When the javascript adds this class, animate the width to 100% */
+.oas-banner-link.is-underlined::after {
+  width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+  .oas-banner-link {
+    font-size: 1.6rem;
+  }
+}
+</style>
+
+<div class="oas-banner-section" id="OASBanner-{{ section.id }}">
+  
+  <div class="oas-banner-media">
+    {%- if section.settings.image_mobile != blank or section.settings.image_desktop != blank -%}
+      {%- if section.settings.image_mobile != blank -%}
+        {{ section.settings.image_mobile | image_url: width: 1000 | image_tag: class: 'oas-banner-mobile-img', loading: 'lazy' }}
+      {%- else -%}
+        {%- if section.settings.image_desktop != blank -%}
+          {{ section.settings.image_desktop | image_url: width: 1000 | image_tag: class: 'oas-banner-mobile-img', loading: 'lazy' }}
+        {%- endif -%}
+      {%- endif -%}
+      
+      {%- if section.settings.image_desktop != blank -%}
+        {{ section.settings.image_desktop | image_url: width: 3000 | image_tag: class: 'oas-banner-desktop-img', loading: 'lazy' }}
+      {%- else -%}
+        {{ section.settings.image_mobile | image_url: width: 3000 | image_tag: class: 'oas-banner-desktop-img', loading: 'lazy' }}
+      {%- endif -%}
+    {%- else -%}
+      {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+    {%- endif -%}
+  </div>
+
+  <div class="oas-banner-overlay"></div>
+
+  <div class="oas-banner-text-track">
+    <div class="oas-banner-text-sticky">
+      {%- if section.settings.heading != blank -%}
+        <h2 class="oas-banner-heading">{{ section.settings.heading | escape }}</h2>
+      {%- endif -%}
+      
+      {%- if section.settings.link_text != blank and section.settings.link_url != blank -%}
+        <a href="{{ section.settings.link_url }}" class="oas-banner-link" id="OASBannerLink-{{ section.id }}">
+          {{ section.settings.link_text | escape }}
+        </a>
+      {%- endif -%}
+    </div>
+  </div>
+
+</div>
+
+<script>
+  (function() {
+    const banner = document.getElementById('OASBanner-{{ section.id }}');
+    if (!banner) return;
+    const link = banner.querySelector('.oas-banner-link');
+    if (!link) return;
+
+    const handleScroll = () => {
+      const rect = banner.getBoundingClientRect();
+      // If the top of the banner reaches the top 30% of the screen, activate the underline!
+      if (rect.top < window.innerHeight * 0.3 && rect.bottom > window.innerHeight * 0.2) {
+        link.classList.add('is-underlined');
+      } else {
+        link.classList.remove('is-underlined');
+      }
+    };
+
+    // Attach to window scroll
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    
+    // In the Theme Editor, when the section is modified, it's re-injected.
+    // We attach a listener to re-initialize the scroll logic if this happens.
+    document.addEventListener('shopify:section:load', function(event) {
+      if (event.detail.sectionId === '{{ section.id }}') {
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        handleScroll();
+      }
+    });
+
+    // Check immediately upon load
+    handleScroll(); 
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "OAS Sticky Banner",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image_desktop",
+      "label": "Desktop Image",
+      "info": "Used on tablets and desktop screens."
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Mobile Image",
+      "info": "Used on mobile screens. If left blank, desktop image will be used."
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Spring/Summer '26"
+    },
+    {
+      "type": "text",
+      "id": "link_text",
+      "label": "Link Text",
+      "default": "Discover"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Link URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "OAS Sticky Banner"
+    }
+  ]
+}
+{% endschema %}

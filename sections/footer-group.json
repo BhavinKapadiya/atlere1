@@ -1,0 +1,60 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "17697043060aad6800": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_xw3akh": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_xw3akh"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "newsletter_enable": true,
+        "newsletter_heading": "SUBSCRIBE TO OUR NEWSLETTER TO RECEIVE INFORMATION REGARDING EXCLUSIVE PREVIEW, SPECIAL EVENTS, AND COLLECTION FIRST ACCESS.",
+        "footer_image": "shopify://shop_images/omini_def.png",
+        "footer_menu": "footer",
+        "payment_enable": false,
+        "social_heading": "",
+        "show_social": false
+      }
+    }
+  },
+  "order": [
+    "17697043060aad6800",
+    "footer"
+  ]
+}

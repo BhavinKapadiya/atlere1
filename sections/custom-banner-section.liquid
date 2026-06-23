@@ -1,0 +1,242 @@
+<style>
+.box_banner-section {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 0;
+
+  .col-box {
+    width: 100%;
+    @media screen and (min-width: 768px) {
+      width: 50%;
+    }
+
+    .col-link {
+      position: relative;
+      display: block;
+      height: 100%;
+      &:hover .overlay {
+        opacity: 1;
+      }
+
+      img {
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+        width: 100%;
+      }
+    }
+
+    .box-cta {
+      z-index: 1;
+      position: absolute;
+      top: var(--top);
+      left: var(--left);
+      right: auto;
+      bottom: auto;
+      transform: translate(calc((-1) * var(--left)), calc((-1) * var(--top)));
+      white-space: nowrap;
+      color: #fff;
+      padding: 30px;
+      @media screen and (min-width: 1024px) {
+        padding: 32px;
+      }
+      span {
+        display: block;
+      }
+      .title-cta {
+        font-family: var(--font-heading-family);
+        font-size: 4rem;
+        line-height: 5rem;
+        font-weight: 600;
+        @media screen and (min-width: 1024px) {
+          font-size: 5rem;
+          line-height: 8rem;
+        }
+      }
+      .sub-cta {
+        line-height: 1rem;
+      }
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    background: #00000026;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    opacity: 0;
+  }
+} 
+</style>
+
+<div class="box_banner-section">
+  <div class="col-box">
+    <div>
+      <a class="col-link" href="{{ section.settings.first-url }}">
+        <img src="{{ section.settings.first-img | img_url: "master" }}">
+        <div class="overlay"></div>
+        <div class="box-cta" style="--left: {{ section.settings.horizontal1 }}%; --top: {{ section.settings.vertical1 }}%;">
+          <span class="title-cta">{{- section.settings['first-text'] -}}</span>
+          <span class="sub-cta">{{- section.settings['sub-text-1'] -}}</span>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-box">
+    <div>
+      <a class="col-link" href="{{ section.settings.second-url }}">
+        <img src="{{ section.settings.second-img | img_url: "master"}}">
+        <div class="overlay"></div>
+        <div class="box-cta" style="--left: {{ section.settings.horizontal2 }}%; --top: {{ section.settings.vertical2 }}%;">
+          <span class="title-cta">{{ section.settings['second-text'] -}}</span>
+          <span class="sub-cta">{{- section.settings['sub-text-2'] -}}</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Banner",
+  "settings": [
+    {
+      "type": "header",
+      "content": "First Banner Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "first-img",
+      "label": "Choose First Banner Image"
+    },
+    {
+      "type": "text",
+      "id": "first-text",
+      "label": "Enter First Banner Text"
+    },
+    {
+      "type": "text",
+      "id": "sub-text-1",
+      "label": "Enter Sub Text"
+    },
+    {
+      "type": "select",
+      "id": "horizontal1",
+      "label": "Allineamento Orizzontale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Sinistra"
+        },
+        {
+          "value": "50",
+          "label": "Centro"
+        },
+        {
+          "value": "100",
+          "label": "Destra"
+        }
+      ],
+      "default": "50"
+    },
+    {
+      "type": "select",
+      "id": "vertical1",
+      "label": "Allineamento Verticale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Top"
+        },
+        {
+          "value": "50",
+          "label": "Centro"
+        },
+        {
+          "value": "100",
+          "label": "Bottom"
+        }
+      ],
+      "default": "50"
+    },
+    {
+      "type": "url",
+      "id": "first-url",
+      "label": "Choose/Enter Collection Link"
+    },
+    {
+      "type": "header",
+      "content": "Second Banner Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "second-img",
+      "label": "Choose Second Banner Image"
+    },
+    {
+      "type": "text",
+      "id": "second-text",
+      "label": "Enter second Banner Text"
+    },
+    {
+      "type": "text",
+      "id": "sub-text-2",
+      "label": "Enter Sub Text"
+    },
+    {
+      "type": "select",
+      "id": "horizontal2",
+      "label": "Allineamento Orizzontale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Sinistra"
+        },
+        {
+          "value": "50",
+          "label": "Centro"
+        },
+        {
+          "value": "100",
+          "label": "Destra"
+        }
+      ],
+      "default": "50"
+    },
+     {
+      "type": "select",
+      "id": "vertical2",
+      "label": "Allineamento Verticale",
+      "options": [
+        {
+          "value": "0",
+          "label": "Top"
+        },
+        {
+          "value": "50",
+          "label": "Centro"
+        },
+        {
+          "value": "100",
+          "label": "Bottom"
+        }
+      ],
+      "default": "50"
+    },
+    {
+      "type": "url",
+      "id": "second-url",
+      "label": "Choose/Enter Collection Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Banner Section"
+    }
+  ]
+}
+{% endschema %}

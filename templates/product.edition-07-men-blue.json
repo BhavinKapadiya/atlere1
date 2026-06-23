@@ -1,0 +1,551 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_DrDaaw": {
+          "type": "text",
+          "settings": {
+            "text": "A lightweight 100% merino Breton shirt for men, cut in a unique relaxed, oversized fit.",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_xDKpC7": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>EDITION 07 — LIMITED TO 99 PIECES</strong>",
+            "text_style": "body"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "collapsible_tab_Ta8cMT": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Made in Italy",
+            "icon": "none",
+            "content": "<p>Our <strong>Breton Shirts</strong> are crafted just a few kilometers from <strong>Venice</strong>, in a region known for its rich artisanal heritage and its role in producing garments for the world’s top <strong>high-fashion brands</strong>.</p><p>Each piece is meticulously made from <strong>fine merino wool</strong>, prized for its natural <strong>softness</strong> and <strong>thermo-regulating properties</strong>, ensuring comfort in any season.</p><p>We collaborate with a <strong>small, family-run workshop</strong>, fostering a partnership built on <strong>trust, craftsmanship, and a passion for quality</strong>—values that define every garment we create.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_9wCejz": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "100% Merino Wool from Italy",
+            "icon": "none",
+            "content": "<p>We have chosen one of the best manufacturers in the world of merino wool: <strong>Tollegno 1900</strong>. It is a historic Italian company specializing in the production of the highest quality wools. Located in the town of Tollegno, in the province of Biella, at the foot of the Piedmont Alps, Tollegno 1900 operates ethically and holds the most important eco-certifications in the textile industry, making it a <strong>green and sustainable company.</strong></p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_T6nwD3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Handmade Embroidery",
+            "icon": "none",
+            "content": "<p>Our Marinières are hand embroidered with needle and thread, making each one unique. </p><p>Each pieces is also hand numbered, from 1 to 99.</p>",
+            "page": ""
+          }
+        },
+        "47bfb772-5b4f-4198-802a-23f7ca18048d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Fit",
+            "icon": "none",
+            "content": "<p>The oversized fit, the dropped sleeves and wide boat neck are hallmarks of our design. Taken together, they represent a unique, modern and fashionable update of this classic look, making them perfect for every outfit.<br/></p><p>Available from S to L. We recommend ordering your normal size. Consult our sizing chart for the correct measurements. If you prefer a slimmer fit, order a size down. If you are unsure or need some advice, send us a message and we will be happy to help.<br/><br/>The model in the photo is 189 cm tall and wears size L.</p>",
+            "page": ""
+          }
+        },
+        "e9567a30-a8a4-47b3-ac6b-dd845b2d3a7c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Yarn & Care",
+            "icon": "none",
+            "content": "<p>We craft our <strong>Breton Shirts</strong> in <strong>Italy</strong> using a <strong>manual loom</strong>, ensuring each piece is meticulously knitted rather than cut from pre-printed fabric. Every sweater is made by skilled artisans, using over <strong>2.5 kilometers of raw yarn</strong>, preserving the authenticity of traditional craftsmanship.</p><p>To keep your <strong>Breton Shirt</strong> looking its best, <strong>hand wash or machine wash at 30°C</strong>, then <strong>hang to dry</strong>. If needed, <strong>iron inside out</strong> or use <strong>steam</strong> to remove creases.</p>",
+            "page": ""
+          }
+        },
+        "d808420e-8e92-4566-9948-7577a69f3f77": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "none",
+            "content": "<p><strong>Shipping is free worldwide.</strong></p><p>Once your Marinière is dispatched, you'll receive an email with tracking details. We ship all over the world. And if you’re based in the EU, we will be sending your items directly from Italy so that you won’t incur additional customs fees.</p><p>If for any reason you wanted to return your Marinière, we accept returns within 14 days of delivery as long as the Marinièere is in perfect condition.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_DrDaaw",
+        "price",
+        "text_xDKpC7",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "quantity_selector",
+        "collapsible_tab_Ta8cMT",
+        "collapsible_tab_9wCejz",
+        "collapsible_tab_T6nwD3",
+        "47bfb772-5b4f-4198-802a-23f7ca18048d",
+        "e9567a30-a8a4-47b3-ac6b-dd845b2d3a7c",
+        "d808420e-8e92-4566-9948-7577a69f3f77"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "featured_collection_6WRR9B": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Also available also in the following colors:",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "edition-07-mens-merino-mariniere",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 20
+      }
+    },
+    "rich_text_Fn6rqL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_f7pQBT": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Certain Way to Wear It",
+            "heading_size": "h1"
+          }
+        },
+        "text_nExUGk": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>There’s a way to wear it.</strong><br/>Not rigid. Not nostalgic. Slightly undone, but deliberate.<br/>From morning streets to late conversations. From market light to gallery rooms.<br/>A jacket on the shoulders. Breton stripes underneath.<br/>Effortless in motion. Precise in intention.<br/>Parisian in spirit.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f7pQBT",
+        "text_nExUGk"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "image_banner_zNqme6": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/4_d0cfaca2-ca31-4122-b017-0a6e9e400fb2.jpg",
+        "mobile_image": "shopify://shop_images/4_d0cfaca2-ca31-4122-b017-0a6e9e400fb2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "middle-center-m",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_7HtNEc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CgfYBY": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Breton Shirt, Reworked",
+            "heading_size": "h1"
+          }
+        },
+        "text_PFCiFb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>We took the classic marinière — also known as the Breton shirt — and rethought it from a fashion perspective.</strong><br/>The stripes remain. The silhouette changes.<br/>Looser. Wider. More relaxed.<br/>Crafted in 100% merino wool — breathable, thermoregulating, and naturally smooth on the skin.<br/>Familiar in spirit. Redesigned in everything else.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CgfYBY",
+        "text_PFCiFb"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "image_banner_AFrFgj": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/3_6f5f92f9-6cb7-4d92-bd55-aaea80e452f6.jpg",
+        "mobile_image": "shopify://shop_images/3_6f5f92f9-6cb7-4d92-bd55-aaea80e452f6.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "middle-center-m",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_A7bE3a": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_e4LJYq": {
+          "type": "heading",
+          "settings": {
+            "heading": "100% Premium Merino Wool from Italy",
+            "heading_size": "h1"
+          }
+        },
+        "text_JbjHCQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>For Edition 07, we selected 100% merino yarn spun by Tollegno 1900 in Biella — known for its precision in fine wool spinning.</strong><br/>Fine merino is not only about softness. It’s about behaviour.<br/>It adapts to temperature, retains warmth without trapping heat, and remains breathable as conditions shift. Structured, yet fluid. Substantial, without weight.<br/>Worn directly on the skin, it feels smooth — never rigid, never heavy.<br/>When a garment relies on cut, proportion and versatility, the material cannot be secondary. It must meet the same standard.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_e4LJYq",
+        "text_JbjHCQ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "image_banner_ihfpwz": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/banner_orrizontale.jpg",
+        "mobile_image": "shopify://shop_images/BANNER_MOBILE_EDITION_07.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "middle-center-m",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_HDY3UB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ML8Uzy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Only 99 Pieces",
+            "heading_size": "h1"
+          }
+        },
+        "text_WfRkqg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We make 99 pieces. That’s all.<br/>Not as a gimmick — as a decision.<br/>Small numbers allow us to work without compromise. No shortcuts. No overstock. No discounts.<br/>What we make is exactly what we stand behind. The price never changes.<br/>Each piece is numbered. One of 99.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ML8Uzy",
+        "text_WfRkqg"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 32
+      }
+    },
+    "image_banner_JhNnr6": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/2_bccdcb9d-03a9-413c-b682-fb6d0bfdd03d.jpg",
+        "mobile_image": "shopify://shop_images/2_bccdcb9d-03a9-413c-b682-fb6d0bfdd03d.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "middle-center-m",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_AEL7Nq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VJVyGr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Knitted Near Venice",
+            "heading_size": "h1"
+          }
+        },
+        "text_YybAYE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Breton Shirts come from just outside Venice, from a place where certain things are still done with intent. We chose a small family workshop not for romance, but for the way they work: measured, exact, and uninterested in shortcuts. There’s no mythology, no folklore — just people who know their craft and let the results speak.<br/>The result is a piece shaped by people who take their time, work with intention, and pay attention to the details that define everything else.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VJVyGr",
+        "text_YybAYE"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "image_banner_kE3GW7": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/banner_venice.jpg",
+        "mobile_image": "shopify://shop_images/atelier_venice.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "middle-center-m",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_WpEU3i": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gAwXtG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Other ways to wear the stripe...",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gAwXtG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "archive_grid_GXtFmH": {
+      "type": "archive-grid",
+      "blocks": {
+        "archive_item_pxyn7t": {
+          "type": "archive_item",
+          "settings": {
+            "image": "shopify://shop_images/dettaglio_verde_a1143927-3a41-4120-ab84-b1578c2b9831.jpg",
+            "title": "EDITION 06",
+            "subtitle": "SUPER KID MOHAIR",
+            "link": "shopify://collections/edition-06-men-mohair-breton-sweaters"
+          }
+        },
+        "archive_item_6JVFdV": {
+          "type": "archive_item",
+          "settings": {
+            "image": "shopify://shop_images/mens-classic-breton-shirt-modern-tie-dye-navy-white.jpg",
+            "title": "EDITION 05",
+            "subtitle": "TIE DYE MARINIERE",
+            "link": "shopify://collections/drop-5-mens-tie-dye-breton-shirts"
+          }
+        },
+        "archive_item_T7nBdt": {
+          "type": "archive_item",
+          "settings": {
+            "image": "shopify://shop_images/dettaglio_2_d7514e5c-a43b-4a88-8475-38049c39d859.jpg",
+            "title": "EDITION 04",
+            "subtitle": "MERINOS WOOL",
+            "link": "shopify://collections/drop-4-mens-merino-breton"
+          }
+        },
+        "archive_item_h9KAq3": {
+          "type": "archive_item",
+          "settings": {
+            "image": "shopify://shop_images/womens-blue-de-travail-jacket-timeless-design.jpg",
+            "title": "EDITION 03",
+            "subtitle": "THE FRENCH WORK JACKET",
+            "link": "shopify://collections/edition-03-men-french-work-jackets"
+          }
+        },
+        "archive_item_pLhWLa": {
+          "type": "archive_item",
+          "settings": {
+            "image": "shopify://shop_images/roberta_800x1200_1c1a38c6-53d9-44b8-80c1-3b7418bb0ae1.png",
+            "title": "Edition 02",
+            "subtitle": "V-NECK",
+            "link": "shopify://collections/drop-2-mens-v-neck-breton"
+          }
+        },
+        "archive_item_ggTkXH": {
+          "type": "archive_item",
+          "settings": {
+            "image": "shopify://shop_images/eva_pancia_tattoo.jpg",
+            "title": "Edition 01",
+            "subtitle": "THE FIRST COLLECTION",
+            "link": "shopify://collections/drop-1-mens-boat-breton"
+          }
+        }
+      },
+      "block_order": [
+        "archive_item_pxyn7t",
+        "archive_item_6JVFdV",
+        "archive_item_T7nBdt",
+        "archive_item_h9KAq3",
+        "archive_item_pLhWLa",
+        "archive_item_ggTkXH"
+      ],
+      "name": "Archive Grid",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "featured_collection_6WRR9B",
+    "rich_text_Fn6rqL",
+    "image_banner_zNqme6",
+    "rich_text_7HtNEc",
+    "image_banner_AFrFgj",
+    "rich_text_A7bE3a",
+    "image_banner_ihfpwz",
+    "rich_text_HDY3UB",
+    "image_banner_JhNnr6",
+    "rich_text_AEL7Nq",
+    "image_banner_kE3GW7",
+    "rich_text_WpEU3i",
+    "archive_grid_GXtFmH"
+  ]
+}

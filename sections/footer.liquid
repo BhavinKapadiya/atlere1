@@ -1,0 +1,157 @@
+{% comment %}theme-check-disable UndefinedObject{% endcomment %}
+{{ 'section-footer.css' | asset_url | stylesheet_tag }}
+{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
+{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}
+{{ 'component-list-payment.css' | asset_url | stylesheet_tag }}
+{{ 'component-list-social.css' | asset_url | stylesheet_tag }}
+
+<footer class="footer">
+  <div class="footer__content-top page-width">
+    {%- if section.settings.newsletter_enable -%}
+      <div class="footer__newsletter">
+        {%- if section.settings.newsletter_heading != blank -%}
+          <p>{{ section.settings.newsletter_heading }}</p>
+        {%- endif -%}
+        
+        {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter-form' -%}
+          <input type="hidden" name="contact[tags]" value="newsletter">
+          <div class="newsletter-form">
+            <input
+              type="email"
+              name="contact[email]"
+              class="newsletter-form__field"
+              placeholder="Email address"
+              required
+            >
+            <button type="submit" class="button">
+              submit
+            </button>
+          </div>
+        {%- endform -%}
+      </div>
+    {%- endif -%}
+
+    <div class="footer__image">
+      {%- if section.settings.footer_image != blank -%}
+        <img
+          src="{{ section.settings.footer_image | image_url }}"
+          alt="{{ section.settings.footer_image.alt | escape }}"
+          loading="lazy"
+        >
+      {%- endif -%}
+    </div>
+
+    <div class="footer__menu-link">
+      {%- if section.settings.footer_menu != blank -%}
+        <ul class="footer__menu-items list-unstyled">
+          {%- for link in section.settings.footer_menu.links -%}
+            <li>
+              <a href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+
+      {%- if section.settings.payment_enable -%}
+        <div class="footer__payment">
+          <ul class="payment-icons list-unstyled">
+            {%- for type in shop.enabled_payment_types -%}
+              <li>
+                {{ type | payment_type_svg_tag }}
+              </li>
+            {%- endfor -%}
+          </ul>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+
+  <div class="footer__content-bottom">
+    <div class="page-width">
+      {%- if section.settings.show_policy -%}
+        <div class="footer__policies">
+          {%- render 'pandectes-gdpr-links' -%}
+        </div>
+      {%- endif -%}
+
+      <div class="footer__copyright">
+        <p>&copy; {{ 'now' | date: '%Y' }} {{ shop.name | link_to: routes.root_url -}}</p>
+      </div>
+
+      <div class="social_menu">
+        {%- if section.settings.show_social -%}
+          {%- if section.settings.social_heading != blank -%}
+            <p>{{ section.settings.social_heading }}</p>
+          {%- endif -%}
+          {%- render 'social-icons' -%}
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Footer",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Footer Top - Newsletter"
+    },
+    {
+      "type": "checkbox",
+      "id": "newsletter_enable",
+      "label": "Abilita Newsletter",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "newsletter_heading",
+      "label": "Titolo Newsletter",
+      "default": "Iscriviti alla newsletter"
+    },
+    {
+      "type": "header",
+      "content": "Footer Top - Immagine Centrale"
+    },
+    {
+      "type": "image_picker",
+      "id": "footer_image",
+      "label": "Immagine"
+    },
+    {
+      "type": "header",
+      "content": "Footer Top - Menu e Social"
+    },
+    {
+      "type": "link_list",
+      "id": "footer_menu",
+      "label": "Menu Footer",
+      "default": "footer"
+    },
+    {
+      "type": "checkbox",
+      "id": "payment_enable",
+      "label": "Mostra metodi di pagamento",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Footer Bottom"
+    },
+    {
+      "type": "text",
+      "id": "social_heading",
+      "label": "Titolo Social",
+      "default": "Follow us"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_social",
+      "label": "Mostra social media",
+      "default": true,
+      "info": "t:sections.footer.blocks.brand_information.settings.show_social.info"
+    }
+  ]
+}
+{% endschema %}

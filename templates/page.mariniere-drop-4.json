@@ -1,0 +1,73 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "e399af7f-1578-4f68-afaf-40e901fc8834": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19550634115420__e399af7f-1578-4f68-afaf-40e901fc8834-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>The Merinos Drop.</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "template--19550634115420__e399af7f-1578-4f68-afaf-40e901fc8834-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For this collection, we selected <strong>luxurious merino wool</strong>, a warm yet lightweight yarn that offers exceptional comfort. The sweater’s <strong>unique volume</strong> maintains a <strong>slightly oversized fit</strong>—relaxed but never excessive.</p><p>Designed for <strong>year-round wear</strong>, it adapts perfectly to all <strong>four seasons</strong>. Wear it <strong>directly on the skin</strong> for a soft, breathable feel in warmer months or layer it over another garment for added warmth in cooler weather. A timeless piece you won’t find anywhere else!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19550634115420__e399af7f-1578-4f68-afaf-40e901fc8834-heading-1",
+        "template--19550634115420__e399af7f-1578-4f68-afaf-40e901fc8834-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 20
+      }
+    },
+    "custom_banner_section_CyxdKg": {
+      "type": "custom-banner-section",
+      "settings": {
+        "first-img": "shopify://shop_images/uomo.jpg",
+        "first-text": "Men's Shirt",
+        "sub-text-1": "100% MERINO WOOL",
+        "horizontal1": "7",
+        "vertical1": "95",
+        "first-url": "shopify://collections/drop-4-mens-merino-breton",
+        "second-img": "shopify://shop_images/donna_08520fe8-83d3-4cb4-b31f-f3cb6bcfc2a1.jpg",
+        "second-text": "Women's Shirt",
+        "sub-text-2": "100% MERINO WOOL",
+        "horizontal2": "7",
+        "vertical2": "95",
+        "second-url": "shopify://collections/drop-4-womens-merino-breton"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e399af7f-1578-4f68-afaf-40e901fc8834",
+    "custom_banner_section_CyxdKg"
+  ]
+}

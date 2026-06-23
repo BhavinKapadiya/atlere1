@@ -1,0 +1,418 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_iQwqUG": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_PKHKGV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Summer 26",
+            "heading_size": "h1"
+          }
+        },
+        "text_h4whVp": {
+          "type": "text",
+          "settings": {
+            "text": "<a href=\"/collections/edition-08-woman-breton-shirt\" title=\"Edition 08 - Woman Breton Shirt\"><strong>Oversized Breton Shirt</strong></a>",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_EqqaYY": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Men",
+            "button_link_1": "shopify://collections/edition-08",
+            "button_style_secondary_1": false,
+            "button_label_2": "Women",
+            "button_link_2": "shopify://collections/edition-08-woman-breton-shirt",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PKHKGV",
+        "text_h4whVp",
+        "buttons_EqqaYY"
+      ],
+      "custom_css": [
+        ".banner__content .button:hover {background: #000; color: #fff; border: none !important;}",
+        ".banner__content .button {transition: all 0.3s;}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/banner_orrizontale_home.jpg",
+        "mobile_image": "shopify://shop_images/banner_modile_vt.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "bottom-center-m",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "custom_full_banner_section_xyx9Mx": {
+      "type": "custom-full-banner-section",
+      "disabled": true,
+      "settings": {
+        "first-img": "shopify://shop_images/Banner_prova.jpg",
+        "first-img-mobile": "shopify://shop_images/atelier-mariniere-breton-shirt-blue-white-stripes.jpg",
+        "first-text": "Limited Edition Marinière.  Four times a year.",
+        "horizontal": "50",
+        "vertical": "50",
+        "first-url": "shopify://collections"
+      }
+    },
+    "custom_banner_section_nbLY88": {
+      "type": "custom-banner-section",
+      "disabled": true,
+      "settings": {
+        "first-img": "shopify://shop_images/Banner_prova.jpg",
+        "first-text": "Menswear",
+        "sub-text-1": "TIE DYE COLLECTION - DROP 5",
+        "horizontal1": "0",
+        "vertical1": "100",
+        "first-url": "shopify://collections/limited-edition-mens-breton-shirts-workwear",
+        "second-text": "",
+        "sub-text-2": "",
+        "horizontal2": "0",
+        "vertical2": "100",
+        "second-url": ""
+      }
+    },
+    "custom_liquid_Pa7y9f": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"slider_Main\">\n    \n<div class=\"slider-box\"> \n    \n<span class=\"text\">Super Kid Mohair - Edition 06 </span>\n<span class=\"text\">*Now available, until 28 February 2026*</span>\n<span class=\"text\">Super Kid Mohair - Edition 06</span>\n<span class=\"text\">*Now available, until 28 February 2026*</span>\n<span class=\"text\">Super Kid Mohair - Edition 06</span>\n<span class=\"text\">*Now available, until 28 February 2026*</span>\n<span class=\"text\">Super Kid Mohair - Edition 06</span>\n<span class=\"text\">*Now available, until 28 February 2026*</span>\n<span class=\"text\">Super Kid Mohair - Edition 06</span>\n<span class=\"text\">*Now available, until 28 February 2026*</span>\n<span class=\"text\">Super Kid Mohair - Edition 06</span>\n<span class=\"text\">*Now available, until 28 February 2026*</span>\n<span class=\"text\">Super Kid Mohair - Edition 06</span>\n<span class=\"text\">*Now available, until 28 February 2026*</span>\n<span class=\"text\">Super Kid Mohair - Edition 06</span>\n\n</div>\n</div>\n\n\n<style>\n\n@keyframes drift {\n    from {\n        transform: translateX(1250px);\n    }\n\n    to {\n        transform: translateX(-1250px);\n    }\n}\n\n.slider_Main {\n    background-color: #ffffff;\n    padding: 20px 5px;\n    display: inline-flex;\n    width: 100%;\n    overflow: hidden;\n}\n\n.slider-box {\n    animation: drift 40s linear infinite backwards;\n    display: flex;\n    align-items: center;\n}\n\n.slider_Main span.text {\n    white-space: nowrap;\n    padding-left: 10px;\n    padding-right: 10px;\n    font-size: 1.8rem;\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_YE79Jw": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h1\">Atelier Marinière is a design studio based in Venice. We reimagine and produce the iconic striped breton shirt and other inspired garments and accessories.\n</a>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
+    "rich_text_PUYLzC": {
+      "type": "rich-text",
+      "blocks": {
+        "text_fyaRpy": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h2><strong>Atelier Marinière is a Venice-based studio. <br/>Four times a year we reinterpret one marinière and one jacket — produced in just 99 pieces <br/>that follow our vision, not the rhythm of the market. <br/>Not many, just enough. <br/>Some will think it’s only a striped shirt or a jacket. <br/>That’s perfectly fine.</strong></h2>"
+          }
+        },
+        "button_LxGwUH": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "READ ALL OUR STORY",
+            "button_link": "shopify://pages/how-it-works",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_fyaRpy",
+        "button_LxGwUH"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_full_banner_section_izYLVq": {
+      "type": "custom-full-banner-section",
+      "disabled": true,
+      "settings": {
+        "first-img": "shopify://shop_images/custom-breton-shirt-mariniere-handmade.jpg",
+        "first-text": "Start creating your Marinière",
+        "horizontal": "0",
+        "vertical": "100",
+        "first-url": "shopify://products/custom-mariniere-breton-shirt"
+      }
+    },
+    "archive_grid_if97BE": {
+      "type": "archive-grid",
+      "blocks": {
+        "archive_item_qVi7AY": {
+          "type": "archive_item",
+          "settings": {
+            "image": "shopify://shop_images/4_1.jpg",
+            "title": "EDITION 07",
+            "subtitle": "MERINO 100%",
+            "link": "shopify://collections/edition-07-merino-mariniere-breton-shirts"
+          }
+        },
+        "archive_item_Q3L7im": {
+          "type": "archive_item",
+          "settings": {
+            "image": "shopify://shop_images/dettaglio_verde_7aca2d7a-c962-4b11-8c10-f4475597a3fd.jpg",
+            "title": "EDITION 06",
+            "subtitle": "SUPER KID MOHAIR",
+            "link": "https://ateliermariniere.com/collections/edition-06-super-kid-mohair-sweaters"
+          }
+        },
+        "archive_item_VHwdaw": {
+          "type": "archive_item",
+          "settings": {
+            "image": "shopify://shop_images/mens-classic-breton-shirt-modern-tie-dye-navy-white.jpg",
+            "title": "Edition 05",
+            "subtitle": "THE TIE DYE",
+            "link": "https://ateliermariniere.com/pages/edition-05-tie-dye-breton-shirt"
+          }
+        },
+        "archive_item_emBhA8": {
+          "type": "archive_item",
+          "settings": {
+            "image": "shopify://shop_images/tessuto_1d7f6bc1-a735-4f6e-9ee2-b677fbbd2d12.jpg",
+            "title": "Edition 04",
+            "subtitle": "100% MERINOS",
+            "link": "https://ateliermariniere.com/pages/edition-4-merinos"
+          }
+        },
+        "archive_item_J9XHCc": {
+          "type": "archive_item",
+          "settings": {
+            "image": "shopify://shop_images/jacket_donna.png",
+            "title": "EDITION 03",
+            "subtitle": "THE FRENCH WORK JACKET",
+            "link": "https://ateliermariniere.com/pages/edition-3-french-work-jacket"
+          }
+        },
+        "archive_item_HFkqcd": {
+          "type": "archive_item",
+          "settings": {
+            "image": "shopify://shop_images/roberta_800x1200_1c1a38c6-53d9-44b8-80c1-3b7418bb0ae1.png",
+            "title": "EDITION 02",
+            "subtitle": "V-NECK MARINIERE",
+            "link": "https://ateliermariniere.com/pages/v-neck-breton-shirts"
+          }
+        },
+        "archive_item_nNF7Tr": {
+          "type": "archive_item",
+          "settings": {
+            "image": "shopify://shop_images/1500x2250_Eva_salmone_dettaglio.jpg",
+            "title": "EDITION 01",
+            "subtitle": "THE FIRST RELEASE",
+            "link": "https://ateliermariniere.com/pages/handcrafted-breton-shirts"
+          }
+        }
+      },
+      "block_order": [
+        "archive_item_qVi7AY",
+        "archive_item_Q3L7im",
+        "archive_item_VHwdaw",
+        "archive_item_emBhA8",
+        "archive_item_J9XHCc",
+        "archive_item_HFkqcd",
+        "archive_item_nNF7Tr"
+      ],
+      "name": "Archive Grid",
+      "settings": {}
+    },
+    "rich_text_gA6TCj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_feU6pP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Knitted Near Venice",
+            "heading_size": "h1"
+          }
+        },
+        "text_jntEJ6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Breton Shirts come from just outside Venice, from a place where certain things are still done with intent. We chose a small family workshop not for romance, but for the way they work: measured, exact, and uninterested in shortcuts. There’s no mythology, no folklore — just people who know their craft and let the results speak.<br/>The result is a piece shaped by people who take their time, work with intention, and pay attention to the details that define everything else.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_feU6pP",
+        "text_jntEJ6"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_Rx4htz": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h1\">All our items are accurately made in Venice. Produced in small batches of 99 pieces every three months. <br>\nEach collection is available only during a limited access window. <br>\nOnce closed, it will not return.</p>\n<a class=\"link_underline\" href=\"/pages/about-us\" style=\"color:#000;\"><span>Read more</span>\n</a>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "custom_liquid_EhkyhG": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h1\">We design and make our Breton shirts in Venice. Discover the process behind the pieces.</p>\n</a>\n</div>",
+        "color_scheme": "",
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_RkERVP": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_AiTTha": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "We design and make our Breton shirts in Venice. Discover the process behind the pieces.",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_PrCKdC": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Discover the process",
+            "button_link_1": "shopify://pages/try-it-at-home",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AiTTha",
+        "buttons_PrCKdC"
+      ],
+      "custom_css": [
+        ".banner__content .button:hover {background: #000; color: #fff; border: none !important;}",
+        ".banner__content .button {transition: all 0.3s;}"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/banner_venice.jpg",
+        "mobile_image": "shopify://shop_images/atelier_venice.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "bottom-center-m",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_PVnnVd": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BHq3fk": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>@atelier.mariniere</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_BHq3fk"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "17696887762df8bb02": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_pFCchB": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "@atelier.mariniere",
+            "title_color": "",
+            "title_size_v2": 15,
+            "alignment": "left",
+            "instafeed_margin_top": 15,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_pFCchB"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "image_banner_iQwqUG",
+    "custom_full_banner_section_xyx9Mx",
+    "custom_banner_section_nbLY88",
+    "custom_liquid_Pa7y9f",
+    "custom_liquid_YE79Jw",
+    "rich_text_PUYLzC",
+    "custom_full_banner_section_izYLVq",
+    "archive_grid_if97BE",
+    "rich_text_gA6TCj",
+    "custom_liquid_Rx4htz",
+    "custom_liquid_EhkyhG",
+    "image_banner_RkERVP",
+    "rich_text_PVnnVd",
+    "17696887762df8bb02"
+  ]
+}

@@ -1,0 +1,89 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "layout": "theme",
+  "sections": {
+    "12180684-e780-40ce-bc8f-7a629a8f0a1c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19522895315292__12180684-e780-40ce-bc8f-7a629a8f0a1c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "WELCOME TO OUR ARCHIVE",
+            "heading_size": "h2"
+          }
+        },
+        "template--19522895315292__12180684-e780-40ce-bc8f-7a629a8f0a1c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every season we launch three Marinière. Each one is made to order. Here are the Marinière we've launched so far. All Marinière are sold out. If you would like to be kept up to date with all our new drop, sign up to our newsletter</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19522895315292__12180684-e780-40ce-bc8f-7a629a8f0a1c-heading-1",
+        "template--19522895315292__12180684-e780-40ce-bc8f-7a629a8f0a1c-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "702b40cd-a35e-4c84-b0b6-39796278f8c5": {
+      "type": "newsletter",
+      "blocks": {
+        "template--19522895315292__702b40cd-a35e-4c84-b0b6-39796278f8c5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--19522895315292__702b40cd-a35e-4c84-b0b6-39796278f8c5-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "template--19522895315292__702b40cd-a35e-4c84-b0b6-39796278f8c5-email_form-1": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--19522895315292__702b40cd-a35e-4c84-b0b6-39796278f8c5-heading-1",
+        "template--19522895315292__702b40cd-a35e-4c84-b0b6-39796278f8c5-paragraph-1",
+        "template--19522895315292__702b40cd-a35e-4c84-b0b6-39796278f8c5-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "12180684-e780-40ce-bc8f-7a629a8f0a1c",
+    "702b40cd-a35e-4c84-b0b6-39796278f8c5"
+  ]
+}

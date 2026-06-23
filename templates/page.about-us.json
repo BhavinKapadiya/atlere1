@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "multicolumn_8YAR8V": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_gDzJzQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/omini_atelier_mariniere.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_gDzJzQ"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_jCLkJQ": {
+      "type": "rich-text",
+      "blocks": {
+        "text_YGeyXi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There isn’t a single name behind Atelier Marinière.<br/>There are people.<br/>People who came from different places,<br/>but see things the same way when the light falls just right.<br/><br/>There’s someone who moves through Paris like it’s home—<br/>not out of nostalgia,<br/>but because some ideas only catch you there.<br/>They follow him through the streets.<br/>He brings them back,<br/>puts them in order with the calm of someone who knows<br/>what’s worth keeping<br/>and what deserves to be let go.<br/><br/>There’s someone who speaks through shapes and colors.<br/>They don’t collect objects.<br/>They surround themselves with things that have lived enough<br/>to stay quiet.<br/>A lamp that feels right.<br/>A belt worn in the exact spot.<br/>A blue box that looks like nothing—<br/>but that’s where everything begins.<br/><br/>There’s someone from Venice,<br/>from a place where you don’t learn a craft—<br/>it’s handed down to you.<br/>They recognise a good yarn at the first touch<br/>and sit at the loom with the steady rhythm<br/>of someone who never forces their hand.<br/><br/>There’s someone who’s lived more lives than they can tell.<br/>You see it in their eyes.<br/>Every image they create<br/>is a piece of the world they didn’t want to lose.<br/><br/>And there’s someone who works between algorithms and intuition,<br/>with the same precision as winding an old mechanical watch—<br/>doing it simply for the pleasure of the gesture.<br/><br/>Around them, a small constellation of friends.<br/>People who don’t need to be persuaded.<br/>People who know how to recognise value when it passes by,<br/>even when it passes in silence.<br/><br/>That’s where our pieces begin.<br/>From carefully chosen yarns,<br/>from hands that know what they’re doing,<br/>from looms that never rush.<br/>We make 99 pieces every three months.<br/>Not to be rare—<br/>but because we have no interest in filling the world<br/>with things no one needs.<br/><br/>Beauty lives in choices, not in how many.<br/>In quiet reassurance, not in applause.<br/>In the eyes of someone who notices,<br/>not in the noise around them.<br/><br/>Making less gives us two luxuries:<br/>the time to do things well,<br/>and the certainty that every piece will find<br/>the person it belongs to.<br/>No stock.<br/>No sales.<br/>No shortcuts.<br/><br/>Most people will think it’s just a striped shirt.<br/>And that’s perfect.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_YGeyXi"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_mxKjJ4": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<p class=\"h1\">There isn’t a single name behind Atelier Marinière.<br>\nThere are people.<br>People who came from different places,<br>but see things the same way when the light falls just right.\n</p>\n<p class=\"h1\">\nThere’s someone who moves through Paris like it’s home<br>\nnot out of nostalgia,<br>but because some ideas only catch you there.<br>\nThey follow him through the streets.<br>\nHe brings them back,<br>puts them in order with the calm of someone who knows what’s worth keepingand <br>what deserves to be let go.\n</p>\n<p class=\"h1\">\nThere’s someone who speaks through shapes and colors.<br>They don’t collect objects.<br>They surround themselves with things that have lived enough to stay quiet.<br>A lamp that feels right.<br>A belt worn in the exact spot.<br>A blue box that looks like nothing<br>but that’s where everything begins.\n</p>\n<p class=\"h1\">\nThere’s someone from Venice,<br>from a place where you don’t learn a craft;<br>it’s handed down to you.<br>They recognise a good yarn at the first touch <br>and sit at the loom with the steady rhythm of someone who never forces their hand.\n</p>\n<p class=\"h1\">\nThere’s someone who’s lived more lives <br>than they can tell.<br>You see it in their eyes.<br>Every image they create<br>is a piece of the world they didn’t want to lose.\n</p>\n<p class=\"h1\">\nAnd there’s someone who works between algorithms and intuition,<br>with the same precision as winding an old mechanical watch,<br>doing it simply for the pleasure of the gesture.</p>\n<p class=\"h1\">Around them, a small constellation of friends.<br>People who don’t need to be persuaded.<br>People who know how to recognise value when it passes by, even when it passes in silence.\n</p>\n<p class=\"h1\">\nThat’s where our pieces begin.<br>From carefully chosen yarns,<br>from hands that know what they’re doing,<br>from looms that never rush.</p>\n<p class=\"h1\">We make 99 pieces every three months.<br>Not to be rare<br>but because we have no interest in filling the world with things no one needs.\n</p>\n<p class=\"h1\">\nBeauty lives in choices, not in how many.<br>In quiet reassurance, not in applause.<br>In the eyes of someone who notices, not in the noise around them.\n</p>\n<p class=\"h1\">\nMaking less gives us two luxuries:<br>the time to do things well, and the certainty that every piece will find the person it belongs to.<br>No stock.<br>No sales.<br>No shortcuts.\n</p>\n<p class=\"h1\">\nMost people will think it’s just a striped shirt.\n</p>\n<p class=\"h1\">\nAnd that’s perfect.</p>\n</a>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_KJzy6P": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Fk3rQt": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Us",
+            "heading_size": "h2"
+          }
+        },
+        "text_ancTJK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Atelier Marinière is a project shaped between Paris and Venice, moving naturally between France and Italy.</p><p>It was born from a long relationship with fashion, and from the desire to step away from its noise, speed and excess.</p><p>The brand focuses on a small number of essential pieces, rooted in a precise idea of taste, culture and everyday elegance.</p><p>Working with a limited drop model allows Atelier Marinière to concentrate on what matters: materials, proportions and coherence.</p><p>Each collection is released every three months, following the rhythm of the seasons.<br/><br/>Every drop is produced in 99 pieces only, made in Italy, and available for a defined period of time.</p><p>Once a drop is closed, those pieces are never produced again.</p><p>Atelier Marinière believes in making less, but making it well.</p><p>Colours and volumes respond to the present — often anticipating it — while the quality of the materials and construction is meant to last for years, not just for a season.</p><p>Access is occasional, quantities are finite, and waiting is part of the experience.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Fk3rQt",
+        "text_ancTJK"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Atelier_Mariniere_About.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_8YAR8V",
+    "rich_text_jCLkJQ",
+    "custom_liquid_mxKjJ4",
+    "image_with_text_KJzy6P"
+  ]
+}

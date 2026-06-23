@@ -1,0 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "custom_liquid_4UVyCn": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .menu-link {\n    color: #000000; /* nero */\n    text-decoration: none;\n    transition: color 0.2s ease;\n  }\n\n  .menu-link:hover {\n    color: #777777; /* grigio medio */\n    text-decoration: none;\n  }\n</style>\n\n<div class=\"page-width\" style=\"text-align: center;\">\n  <p class=\"h2\">\n    <a href=\"/pages/how-it-works\" class=\"menu-link\">How It Works</a> /\n    <a href=\"/pages/materials\" class=\"menu-link\">Materials</a> /\n    <a href=\"/pages/try-it-at-home\" class=\"menu-link\">Try it at Home</a> /\n</p>\n</div>",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "custom_liquid_EVxKFF": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .menu-link {\n    position: relative;\n    color: #000000; /* nero */\n    font-weight: 500; /* leggermente più bold */\n    text-decoration: none; /* togli adesione default */\n    transition: color 0.25s ease;\n  }\n\n  /* underline animato */\n  .menu-link::after {\n    content: \"\";\n    position: absolute;\n    left: 0;\n    bottom: -2px;\n    width: 0%;\n    height: 1px;\n    background-color: #000000; /* underline nero */\n    transition: width 0.3s ease, background-color 0.25s ease;\n  }\n\n  .menu-link:hover {\n    color: #3B6FFF; /* azzurro elegante */\n  }\n\n  .menu-link:hover::after {\n    width: 100%;\n    background-color: #3B6FFF; /* underline azzurro in hover */\n  }\n</style>\n\n<div class=\"page-width\">\n  <p class=\"h1\">\n    When a season is over,<br>\n    the 99 pieces disappear.<br>\n    They don’t return — but they don’t vanish either.\n  </p>\n\n  <p class=\"h1\">\n    We keep everything in our archive:<br>\n    past models, weights, lines, stitches, colours, embroidery ideas.\n  </p>\n\n  <p class=\"h1\">\n    They’re not available for direct purchase,<br>\n    but they can be a beginning.<br>\n    If you want something similar from the archive,<br>\n    we can make a bespoke piece:\n  </p>\n\n  <p class=\"h1\">\n    <a href=\"https://ateliermariniere.com/products/custom-mariniere-breton-shirt\" class=\"menu-link\">\n      choose the yarn – choose the colour – choose the model – add a custom embroidery if you like\n    </a>\n  </p>\n\n  <p class=\"h1\">\n    and we produce one single piece.<br>\n    Yours.\n  </p>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
+    "image_banner_NXRFjR": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/custom-breton-shirt-mariniere-handmade.jpg",
+        "mobile_image": "shopify://shop_images/custom-breton-shirt-mariniere-handmade.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "middle-center-m",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "custom_liquid_i66HED": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .menu-link {\n    color: #000000; /* nero */\n    text-decoration: none;\n    transition: color 0.2s ease;\n  }\n\n  .menu-link:hover {\n    color: #777777; /* grigio medio */\n    text-decoration: none;\n  }\n</style>\n\n<div class=\"page-width\" style=\"text-align: center;\">\n  <p class=\"h2\">\n    <a href=\"/pages/how-it-works\" class=\"menu-link\">How It Works</a> /\n    <a href=\"/pages/materials\" class=\"menu-link\">Materials</a> /\n    <a href=\"/pages/try-it-at-home\" class=\"menu-link\">Try it at Home</a>\n  </p>\n</div>",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_4UVyCn",
+    "custom_liquid_EVxKFF",
+    "image_banner_NXRFjR",
+    "custom_liquid_i66HED"
+  ]
+}

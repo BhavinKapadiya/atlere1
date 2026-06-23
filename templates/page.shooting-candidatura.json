@@ -1,0 +1,47 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "d330f3f6-94bc-402c-b351-22af77a62c6d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19520181174620__d330f3f6-94bc-402c-b351-22af77a62c6d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Ciao!</strong><br/><br/>Saremo brevi a spiegarti cosa cerchiamo:</p><p>Per il nostro nuovo \"Atelier Marinière\" cerchiamo una persona in grado di realizzare materiale foto/video reels. </p><p>Non mettiamo un minimo di scatti e reels da realizzare in quanto ogni shooting possiamo comprendere che è una storia a se. Vi chiediamo però di organizzarvi con i vostri amici per quanto riguarda i modelli da fotografare.</p><p>Si tratta di un progetto di abbigliamento monoprodotto, maglie a righe oversized fatte a telaio qui in Italia, ogni stagione esce una maglia differente per filato, modello e tipologia  (ma sempre a righe).</p><p>Di conseguenza necessitiamo di contenuti fotografici sempre freschi<br/>spendibili principalmente sui canali social, a detta di ciò potrebbe diventare una collaborazione continuativa se ci piaciamo a vicenda.<br/><br/>Noi vi forniamo i capi da fotografare, non più di 3 maglie di solito, ve le consegnamo a Mestre o Venezia e concordiamo insieme i dettagli e una scadenza.<br/><br/>Per candidarvi scriveteci su instagram:</p><p><a href=\"https://www.instagram.com/atelier.mariniere/\" title=\"https://www.instagram.com/atelier.mariniere/\">@atelier.mariniere</a></p><p>A presto :)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19520181174620__d330f3f6-94bc-402c-b351-22af77a62c6d-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d330f3f6-94bc-402c-b351-22af77a62c6d"
+  ]
+}

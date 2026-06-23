@@ -1,0 +1,82 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "a12ab707-5341-4782-9820-490f7120ec9c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19637036941660__a12ab707-5341-4782-9820-490f7120ec9c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Frequently Asked Questions</h1><p>We've put together answers to the questions we get asked most often. If there's something we haven't covered, please drop us an email and we'll get back to you soon.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19637036941660__a12ab707-5341-4782-9820-490f7120ec9c-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "d330f3f6-94bc-402c-b351-22af77a62c6d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19520181174620__d330f3f6-94bc-402c-b351-22af77a62c6d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Do you accept all payment types?</h2><p>We accept all major credit cards on our website, however we do not accept PayPal payments. </p><p></p><h2>How do I know what size I am?</h2><p>Check out our size guide to find your best fit.</p><p>We make marinière from S to L. Normally our fit is unisex, but sometimes we make specific sizes for a men's and women's.</p><p>If you're unsure about your size,please write us an email or message us via instagram at <a href=\"https://www.instagram.com/atelier.mariniere/\" target=\"_blank\" title=\"https://www.instagram.com/atelier.mariniere/\">@atelier.mariniere </a>We'll be happy to help. </p><h2>What number will I get on my marinière?</h2><p>Each marinière is individually hand-numbered in the order that they're sold, and defined by it's collection too, making every piece one of a kind.</p><p></p><h2>How do I find out about the next marinière?</h2><p>To see what we're working on next, we'd recommend signing up to our newsletter, or following us on Instagram <a href=\"https://www.instagram.com/atelier.mariniere/\" target=\"_blank\" title=\"https://www.instagram.com/atelier.mariniere/\">here</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19520181174620__d330f3f6-94bc-402c-b351-22af77a62c6d-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "da0fad52-29bc-422f-95b0-01fd581270a7": {
+      "type": "rich-text",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a12ab707-5341-4782-9820-490f7120ec9c",
+    "d330f3f6-94bc-402c-b351-22af77a62c6d",
+    "da0fad52-29bc-422f-95b0-01fd581270a7"
+  ]
+}

@@ -1,0 +1,47 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "d330f3f6-94bc-402c-b351-22af77a62c6d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19520181174620__d330f3f6-94bc-402c-b351-22af77a62c6d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Return Policy</h1><p><br/>Atelier Marinière accepts online returns of non-sale, unworn/unwashed merchandise with original tags attached within 14 calendar days from the date of delivery. All products must be returned in its original packaging and with all related accessories included. Items in gift sets may not be separated and must be returned complete in its original packaging. All refunds will be applied to the original payment method. If you return a package that does not meet this criteria, it will be denied. All denied returns will not receive a refund and will be forfeited. Original shipping fees are non-refundable.</p><p></p><h2>Exchanges:</h2><p>As we make a limited edition collections, we can't promise an exchange will be possible, but the earlier you ask us, the better your chances will be. Please start by sending us an email with your original order details and stating what you'd like to swap for.</p><p>If the alternate size or colour is available we will complete your exchange. If that's not possible, we will make a refund excluding shipping, customs and import duties. For any exchanges, we will need to charge shipping costs for replacement marinière.</p><p>For more information, please contact us!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19520181174620__d330f3f6-94bc-402c-b351-22af77a62c6d-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d330f3f6-94bc-402c-b351-22af77a62c6d"
+  ]
+}

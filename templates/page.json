@@ -1,0 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_EpkVQW": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/banner_custom.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_KWNL4y": {
+      "type": "rich-text",
+      "blocks": {
+        "text_Qi9x9j": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Create Your Custom Marinière!</strong></p><p>With our exclusive customization service, you can make your marinière truly unique, designing a piece that perfectly reflects your style. We offer you the opportunity to choose every detail, creating a garment that’s entirely yours.</p><p><strong>Sweater Shape</strong>: Choose the model that best represents you! You can opt for a boat neckline or a V-neck, and in the future, all Atelier Marinière models will be customizable.</p><p><strong>Yarn Type</strong>: Select your preferred yarn: cotton, merino wool, or cashmere. All our yarns are high-quality Italian fabrics with certified provenance.</p><p><strong>Base and Stripe Colors</strong>: Customize both the base color of your sweater and the color of the stripes. From classic tones to bold, contemporary options, with dozens of colors to choose from. Your style, your rules!</p><p><strong>Personalized Embroidery</strong>: Finish your marinière with custom embroidery. Whether it’s a name, a special date, or a word with personal meaning, our embroidery will add a touch of originality and personality to your piece.</p><p>With our customization service, every marinière becomes a one-of-a-kind item, made especially for you. Discover how to make your style unique by carefully selecting every detail!</p>"
+          }
+        },
+        "button_cE846x": {
+          "type": "button",
+          "settings": {
+            "button_label": "Available in 2025 - Get in touch with us!",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_Qi9x9j",
+        "button_cE846x"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_EpkVQW",
+    "rich_text_KWNL4y"
+  ]
+}

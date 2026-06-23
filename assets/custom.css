@@ -1,0 +1,224 @@
+.product__tax {
+    display: none;
+}
+
+.header__split-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.header__split-container .link, .customer a {
+ font-size: 12.5px !important;
+    }
+
+.header__menu--left,
+.header__menu--right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.footer__menu-items a {
+    font-size: 12.5px !important;
+  }
+
+.header__menu-list {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header__menu-item { list-style: none; text-align: center; }
+
+.header__menu-link { text-decoration: none; display: inline-block; padding: 6px 0; }
+
+.header__menu--left { justify-content: flex-start; }
+.header__menu--right { justify-content: flex-end; }
+
+.header__logo-center {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 0 12px;
+}
+
+.menu-badge {
+  display: block;
+  padding: 4px 8px;
+  font-size: 8px;
+  line-height: 1;
+  font-weight: 600;
+  color: #1f2b5b;
+  text-align: center;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  letter-spacing: 0.5px;
+  margin-top: -12px;
+}
+
+.mobile-only { display: none; }
+.desktop-only { display: block; }
+
+.header__menu-item:hover span {
+    text-decoration: none !important;
+    }
+
+    details[open]>.header__menu-item {
+    text-decoration: none !important;
+}
+
+/* Sticky Add to Cart */
+.sticky-atc {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  padding: 12px;
+  border-top: 1px solid #e5e5e5;
+  display: none;
+  z-index: 1000;
+}
+
+.sticky-atc button {
+  width: 100%;
+}
+
+.badge {
+   font-size: 1.4rem;
+    
+}
+
+.product-form__buttons {
+    max-width: 100% !important;
+}
+
+
+@media(min-width:768px){
+    .header .header__logo-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.logo_mob {
+    display:none;
+}
+.header {
+    display: flex !important;
+}
+.header {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.header__inline-menu--split {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-menu-left,
+.header-menu-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-menu-left {
+  margin-left: -5rem !important; /* Move slightly left on very wide screens */
+}
+
+@media screen and (max-width: 1700px) {
+  .header-menu-left {
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .header-menu-left,
+  .header-menu-right {
+    display: none !important;
+  }
+}
+
+/* OAS Mega Menu — Split header integration */
+.header-menu-left mega-menu-oas,
+.header-menu-right mega-menu-oas {
+  position: static;
+}
+
+.header__inline-menu--split .oas-mega__trigger {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 12.5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Ensure all header links use Instrument Sans and have no underline */
+.header__split-container .link,
+.header__split-container .header__menu-item {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 12.5px !important;
+  text-decoration: none !important;
+}
+
+.header__split-container .header__menu-item span {
+  text-decoration: none !important;
+}
+
+.header__split-container .header__active-menu-item {
+  text-decoration: none !important;
+}
+
+}
+
+@media(max-width:767px){
+  .header__split-container {
+  display: none;
+ 
+}  
+.banner__box {
+    padding: 4rem 2.5rem !important;
+   }
+.mobile-only { display: block !important; }
+  .desktop-only { display: none !important; }
+
+.full-banner_box span {
+            white-space: normal !important;
+            text-align: center;
+            width: 100%;
+            line-height: 37px;
+        }
+        .full-banner_box img {
+    width: 100% !important;
+    transform: translate(0) !important;
+}
+
+ul.menu-drawer__menu.has-submenu.list-menu li:nth-child(4) {
+    display: none;
+}
+.menu-drawer__menu-item {
+    padding: 2rem 3rem !important;
+    border-bottom: 1px solid #f8f8f8 !important;
+}
+.list-menu__item {
+   justify-content: center !important;
+}
+.header {
+    padding: 8px 3rem 8px 3rem !important;
+}
+
+    span.menu-badge {
+        position: absolute;
+        left: 38%;
+        top: 1%;
+    }
+}

@@ -1,0 +1,70 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "d330f3f6-94bc-402c-b351-22af77a62c6d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19520181174620__d330f3f6-94bc-402c-b351-22af77a62c6d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>Pre-Order deposit</strong></h2><p>There is the possibility to pre-order your Marinière during the months before production starts</p><p>With the pre-order, we have decided to involve you in the manufacturing process in advance for two reasons:</p><p><br/>1. secure one of the 99 pieces produced</p><p>2. help us understand how many and which sizes to produce, disappoint less people and make no waste.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19520181174620__d330f3f6-94bc-402c-b351-22af77a62c6d-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "da0fad52-29bc-422f-95b0-01fd581270a7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19520181174620__da0fad52-29bc-422f-95b0-01fd581270a7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>How much does the<br/>pre-order cost?</strong></h2><p>Pre-order deposit is 50,00 euros and guarantees you will receive one of the 99 marinières produced.</p><h2><strong>Terms</strong></h2><p>Customers who have pre-ordered will be contacted via email 10 days before the official release in order to finalize their purchase. Payment must be completed at least 24 hours before the release. </p><p>The pre-order deposit will credited to your order when you finalize payment.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19520181174620__da0fad52-29bc-422f-95b0-01fd581270a7-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d330f3f6-94bc-402c-b351-22af77a62c6d",
+    "da0fad52-29bc-422f-95b0-01fd581270a7"
+  ]
+}
