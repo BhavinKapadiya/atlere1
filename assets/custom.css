@@ -202,9 +202,7 @@
     transform: translate(0) !important;
 }
 
-ul.menu-drawer__menu.has-submenu.list-menu li:nth-child(4) {
-    display: none;
-}
+
 .menu-drawer__menu-item {
     padding: 2rem 3rem !important;
     border-bottom: 1px solid #f8f8f8 !important;
