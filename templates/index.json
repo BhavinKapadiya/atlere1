@@ -46,19 +46,21 @@
       ],
       "custom_css": [
         ".banner__content .button:hover {background: #000; color: #fff; border: none !important;}",
-        ".banner__content .button {transition: all 0.3s;}"
+        ".banner__content .button {transition: all 0.3s;}",
+        "#Banner-image_banner_iQwqUG.banner .banner__content { padding-left: 1rem !important; padding-right: 1rem !important; max-width: 100% !important; }",
+        "#Banner-image_banner_iQwqUG.banner .banner__box { padding-left: 0 !important; }"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/banner_orrizontale_home.jpg",
-        "mobile_image": "shopify://shop_images/banner_modile_vt.jpg",
+        "image": "shopify://shop_images/banner_vorrei_essere_Juergen.jpg",
+        "mobile_image": "shopify://shop_images/mobile.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "inverse",
-        "image_behavior": "none",
+        "image_behavior": "fixed",
         "mobile_content_alignment": "center",
         "mobile_content_position": "bottom-center-m",
         "stack_images_on_mobile": false,

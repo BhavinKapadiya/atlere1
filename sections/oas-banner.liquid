@@ -69,24 +69,80 @@
 
 .oas-banner-text-sticky {
   position: sticky;
-  /* Adjust this calculation to determine how far from the top of the screen the text sits */
-  top: calc(100vh - 180px); 
   left: 0;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 40px; /* Prevents text from touching the bottom of the image */
   display: flex;
   flex-direction: column;
+  pointer-events: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* HORIZONTAL (Mobile) */
+.oas-pos-mob-top-left, .oas-pos-mob-middle-left, .oas-pos-mob-bottom-left {
   align-items: flex-start;
-  pointer-events: auto; /* ...but catch clicks on the text container */
+  text-align: left;
+}
+.oas-pos-mob-top-center, .oas-pos-mob-middle-center, .oas-pos-mob-bottom-center {
+  align-items: center;
+  text-align: center;
+}
+.oas-pos-mob-top-right, .oas-pos-mob-middle-right, .oas-pos-mob-bottom-right {
+  align-items: flex-end;
+  text-align: right;
+}
+
+/* VERTICAL (Mobile) */
+.oas-pos-mob-top-left, .oas-pos-mob-top-center, .oas-pos-mob-top-right {
+  top: 100px;
+  padding-bottom: 0;
+}
+.oas-pos-mob-middle-left, .oas-pos-mob-middle-center, .oas-pos-mob-middle-right {
+  top: 50vh;
+  transform: translateY(-50%);
+  padding-bottom: 0;
+}
+.oas-pos-mob-bottom-left, .oas-pos-mob-bottom-center, .oas-pos-mob-bottom-right {
+  top: calc(100vh - 180px);
+  padding-bottom: 40px;
 }
 
 @media screen and (min-width: 750px) {
   .oas-banner-text-sticky {
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 60px; /* More space on desktop */
-    top: calc(100vh - 220px); 
+  }
+
+  /* HORIZONTAL (Desktop) */
+  .oas-pos-desk-top-left, .oas-pos-desk-middle-left, .oas-pos-desk-bottom-left {
+    align-items: flex-start;
+    text-align: left;
+  }
+  .oas-pos-desk-top-center, .oas-pos-desk-middle-center, .oas-pos-desk-bottom-center {
+    align-items: center;
+    text-align: center;
+  }
+  .oas-pos-desk-top-right, .oas-pos-desk-middle-right, .oas-pos-desk-bottom-right {
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  /* VERTICAL (Desktop) */
+  .oas-pos-desk-top-left, .oas-pos-desk-top-center, .oas-pos-desk-top-right {
+    top: 140px;
+    transform: none;
+    padding-bottom: 0;
+  }
+  .oas-pos-desk-middle-left, .oas-pos-desk-middle-center, .oas-pos-desk-middle-right {
+    top: 50vh;
+    transform: translateY(-50%);
+    padding-bottom: 0;
+  }
+  .oas-pos-desk-bottom-left, .oas-pos-desk-bottom-center, .oas-pos-desk-bottom-right {
+    top: calc(100vh - 220px);
+    transform: none;
+    padding-bottom: 60px;
   }
 }
 
@@ -168,7 +224,7 @@
   <div class="oas-banner-overlay"></div>
 
   <div class="oas-banner-text-track">
-    <div class="oas-banner-text-sticky">
+    <div class="oas-banner-text-sticky oas-pos-desk-{{ section.settings.desktop_content_position }} oas-pos-mob-{{ section.settings.mobile_content_position }}">
       {%- if section.settings.heading != blank -%}
         <h2 class="oas-banner-heading">{{ section.settings.heading | escape }}</h2>
       {%- endif -%}
@@ -234,6 +290,40 @@
       "id": "image_mobile",
       "label": "Mobile Image",
       "info": "Used on mobile screens. If left blank, desktop image will be used."
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_position",
+      "options": [
+        {"value": "top-left", "label": "Top left"},
+        {"value": "top-center", "label": "Top center"},
+        {"value": "top-right", "label": "Top right"},
+        {"value": "middle-left", "label": "Middle left"},
+        {"value": "middle-center", "label": "Middle center"},
+        {"value": "middle-right", "label": "Middle right"},
+        {"value": "bottom-left", "label": "Bottom left"},
+        {"value": "bottom-center", "label": "Bottom center"},
+        {"value": "bottom-right", "label": "Bottom right"}
+      ],
+      "default": "bottom-left",
+      "label": "Desktop content position"
+    },
+    {
+      "type": "select",
+      "id": "mobile_content_position",
+      "options": [
+        {"value": "top-left", "label": "Top left"},
+        {"value": "top-center", "label": "Top center"},
+        {"value": "top-right", "label": "Top right"},
+        {"value": "middle-left", "label": "Middle left"},
+        {"value": "middle-center", "label": "Middle center"},
+        {"value": "middle-right", "label": "Middle right"},
+        {"value": "bottom-left", "label": "Bottom left"},
+        {"value": "bottom-center", "label": "Bottom center"},
+        {"value": "bottom-right", "label": "Bottom right"}
+      ],
+      "default": "bottom-left",
+      "label": "Mobile content position"
     },
     {
       "type": "text",

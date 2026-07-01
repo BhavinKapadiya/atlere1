@@ -13,6 +13,23 @@
   "sections": {
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_image_kdB3dz": {
+          "type": "mega_menu_image",
+          "settings": {
+            "menu_item_title": "Atlier",
+            "image": "shopify://shop_images/IMG_8097.jpg",
+            "video_url": "",
+            "link": "https://ateliermariniere.com/pages/how-it-works",
+            "heading": "",
+            "text_position": "bottom-left",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_image_kdB3dz"
+      ],
       "settings": {
         "logo_position": "middle-center",
         "menu": "main-menu",
@@ -20,6 +37,7 @@
         "badge_text": "NEW COLLECTION",
         "badge_color": "#36b0d8",
         "menu_type_desktop": "oas_mega",
+        "oas_menu_links_position": "top-left",
         "sticky_header_type": "always",
         "show_line_separator": false,
         "color_scheme": "background-1",

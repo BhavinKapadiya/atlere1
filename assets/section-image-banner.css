@@ -524,3 +524,25 @@
     color: currentColor;
   }
 }
+
+/* ─────────────────────────────────────────────────────
+   Home Image Banner: full-bleed text positioning
+   Breaks text out of page-width so it can reach the
+   true left / right edge of the viewport.
+   Alignment (left / center / right) still controlled
+   from the Theme Editor → Desktop content alignment.
+───────────────────────────────────────────────────── */
+@media screen and (min-width: 750px) {
+  #Banner-image_banner_iQwqUG .banner__content {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  #Banner-image_banner_iQwqUG .banner__box {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
